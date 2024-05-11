@@ -1,0 +1,1 @@
+This is an example project demonstrating the integration of Django, React, and Vite for both development and production environments. Additionally, it showcases efficient workflows and best practices for seamless collaboration between frontend and backend teams.
