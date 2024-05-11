@@ -1,0 +1,16 @@
+<!--  -->
+{% load static %}
+<!--  -->
+<!--  -->
+{% for css in reactjs_assets_css_paths %}
+<link rel="stylesheet" href="{% static css %}" />
+{% endfor %}
+<!--  -->
+
+<div id="root"></div>
+
+<!--  -->
+{% for js in reactjs_assets_js_paths %}
+<script src="{% static js %}"></script>
+{% endfor %}
+<!--  -->
